@@ -1,0 +1,19 @@
+.featuresSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  gap: 150px;
+}
+
+.textsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkedItensDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,23 @@
+.retangularButton {
+  padding-top: 1.8rem;
+}
+
+.button {
+  width: 15.6rem;
+  height: 3.75rem;
+  border-radius: 0.6rem;
+  background-color: #F53838;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #FFF;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 0.75rem 1.37rem rgba(245, 56, 56, 0.35), 0 0.06rem 1.18rem rgba(245, 56, 56, 0.35);
+  transition: 0.3s ease-in-out;
+}
+
+.button.hover:hover {
+  background-color: #d30505;
+  box-shadow: 0 0.75rem 1.37rem rgba(243, 30, 30, 0.35), 0 0.06rem 1.18rem rgba(243, 30, 30, 0.35);
+}

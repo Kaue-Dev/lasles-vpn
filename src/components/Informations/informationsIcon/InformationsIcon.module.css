@@ -1,0 +1,9 @@
+.informationsIcon {
+  border-radius: 70px;
+  background-color: #FFECEC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+}

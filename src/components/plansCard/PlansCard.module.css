@@ -1,0 +1,48 @@
+.plansCard {
+  width: 330px;
+  height: 760px;
+  border-radius: 10px;
+  border: 2px solid #DDD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redBorder {
+  border: 2px solid #F53838;
+}
+
+.iconAndText {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.prices {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.outline {
+  border: 2px solid #F53838;
+}
+
+.priceAndMonth {
+  display: flex;
+  gap: 6px;
+}

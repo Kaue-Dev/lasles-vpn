@@ -1,0 +1,26 @@
+.informartions {
+  display: flex;
+  width: 71rem;
+  height: 12.5rem;
+  border-radius: 0.6rem;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 6.25rem;
+  box-shadow: 0 0.75rem 1.3rem rgba(202, 202, 202, 0.35), 0 0.06rem 0.18rem rgba(221, 221, 221, 0.35);
+}
+
+.users,
+.locations,
+.servers {
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+  height: 12.5rem;
+}
+
+.textsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

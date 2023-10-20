@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFF;
+  transition: box-shadow 0.3s ease;
+  z-index: 3;
+}
+
+.optionsDiv {
+  display: flex;
+  gap: 2.5rem;
+  margin-left: 9.8rem;
+  cursor: pointer;
+}
+
+.signin {
+  color: #0B132A;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 9.3rem;
+  cursor: pointer;
+}
+
+.header.shadow {
+  box-shadow: 0 0.1rem 1rem rgba(202, 202, 202, 0.35);
+}
